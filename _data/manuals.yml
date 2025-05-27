@@ -2,21 +2,5 @@
 # Add your camera manuals here
 
 - title: "Minolta Talker"
-  description: "Annoyitng talking camera"
-  pdf_path: "https://drive.google.com/file/d/1dgHpPynnLtG3nmIJZWa83pOT12dJa1OT/view?usp=sharing"
-
-- title: "Canon EOS 5D Mark IV"
-  description: "Professional DSLR camera manual with detailed instructions"
-  pdf_path: "/assets/pdfs/canon-eos-5d-mark-iv.pdf"
-
-- title: "Nikon D850"
-  description: "High-resolution full-frame DSLR camera manual"
-  pdf_path: "/assets/pdfs/nikon-d850.pdf"
-
-- title: "Sony Alpha A7 III"
-  description: "Full-frame mirrorless camera manual with setup guides"
-  pdf_path: "/assets/pdfs/sony-a7iii.pdf"
-
-- title: "Fujifilm X-T4"
-  description: "Advanced mirrorless camera with in-body stabilization"
-  pdf_path: "/assets/pdfs/fujifilm-xt4.pdf"
+  description: "Annoying talking camera"
+  pdf_path: "/assets/pdfs/minolta-talker.pdf"
