@@ -3,16 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | Camera Manual Archive</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>Camera Manual Archive</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  {% include header.html %}
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="index.html">Camera Manual Archive</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="cameras.html">Camera Manuals</a>
+      </nav>
+    </div>
+  </header>
   
   <main class="content">
-    {{ content }}
+    <!-- Content goes here -->
   </main>
   
-  {% include footer.html %}
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; 2025 Camera Manual Archive. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
