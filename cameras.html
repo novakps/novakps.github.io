@@ -1,0 +1,18 @@
+---
+layout: default
+title: Camera Manuals Collection
+---
+
+<div class="manuals-page">
+  <h1>Camera Manuals Collection</h1>
+  
+  <div class="manuals-list">
+    {% for manual in site.data.manuals %}
+      <div class="manual-item">
+        <h3>{{ manual.title }}</h3>
+        <p>{{ manual.description }}</p>
+        <a href="{{ manual.pdf_path }}" class="download-button">Download PDF</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
