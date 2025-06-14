@@ -1,4 +1,4 @@
-- id: canon-af35-ml
+-- id: canon-af35-ml
   title: Canon AF35 ML
   description: The Canon AF35 ML is a 35mm point and shoot camera.
   specifications:
@@ -146,3 +146,23 @@
   images:
     - src: /assets/images/Kodak_VR35 K40.jpg
       alt: Canon Sure Shot Owl - Front View
+
+ - id: nikon-one-touch
+   title: Nikon One Touch LF35AF2
+   description: It's easy to learn, easy to use, and extremely portable.
+   specifications:
+     - name: Lens
+       value: 35mm Nikon Lens
+     - name: Focus
+       value: Autofocus
+     - name: Year
+       value: 1985
+    usage_instructions:
+      - Load film (already done)
+      - Open lens cover at bottom of lens (also turns on camera)
+      - Look through the viewfinder and frame your shot
+      - Press the shutter button lightly to focus
+      - Press the shutter button fully to take the picture
+    imaged:
+      - src: /assets/images/nikon-one-touch.jpg
+        alt: Nikon One Touch = Front View
