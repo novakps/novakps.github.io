@@ -6,6 +6,7 @@ gem "csv"
 gem "logger"
 gem "base64"
 gem "bigdecimal"
+gem "jekyll-theme-cayman"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
