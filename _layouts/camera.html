@@ -1,0 +1,72 @@
+---
+layout: default
+---
+<div class="camera-page">
+  <h1>{{ page.title }}</h1>
+  
+  <div class="camera-details">
+    <div class="camera-info">
+      <h2>About</h2>
+      <p>{{ page.description }}</p>
+      
+      <h2>Specifications</h2>
+      <ul>
+        {% for spec in page.specifications %}
+        <li><strong>{{ spec.name }}:</strong> {{ spec.value }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <div class="camera-resources">
+      {% if page.manual_pdf %}
+      <h2>Resources</h2>
+      <a href="{{ page.manual_pdf }}" class="download-button">Download PDF</a>
+      {% endif %}
+      
+      {% if page.external_link %}
+      <a href="{{ page.external_link }}" class="download-button">{{ page.external_link_text | default: "External Link" }}</a>
+      {% endif %}
+      
+      {% if page.images %}
+      <h2>Images</h2>
+      <div class="camera-images">
+        {% for image in page.images %}
+        <img src="{{ image.src }}" alt="{{ image.alt }}" width="300">
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  
+  <div class="camera-usage">
+    {% if page.usage_instructions %}
+    <h2>How to Use</h2>
+    <p>Basic instructions for using the {{ page.title }}:</p>
+    <ol>
+      {% for instruction in page.usage_instructions %}
+      <li>{{ instruction }}</li>
+      {% endfor %}
+    </ol>
+    {% endif %}
+    
+    {% if page.features %}
+    <h2>Features</h2>
+    <p>The {{ page.title }} includes several useful features:</p>
+    <ul>
+      {% for feature in page.features %}
+      <li>{{ feature }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    
+    {% if page.voice_commands %}
+    <h2>Voice Commands</h2>
+    <p>The {{ page.title }} provides voice feedback for various situations:</p>
+    <ul>
+      {% for command in page.voice_commands %}
+      <li>"{{ command }}"</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,128 @@
+- id: canon-af35-ml
+  title: Canon AF35 ML
+  description: The Canon AF35 ML is a 35mm point and shoot camera.
+  specifications:
+    - name: Type
+      value: 35mm compact camera
+    - name: Lens
+      value: 40mm f/1.9
+    - name: Focus
+      value: Autofocus
+    - name: Year
+      value: 1981
+  manual_pdf: ""
+  images:
+    - src: /assets/images/CANON_AF35_ML_Shooting.png
+      alt: Canon AF35 ML
+  usage_instructions:
+    - Load the film
+    - Turn on the camera
+    - Frame your shot
+    - Press the shutter button
+
+- id: canon-sure-shot-owl
+  title: Canon Sure Shot Owl
+  description: The Canon Sure Shot Owl is a compact 35mm point and shoot camera known for its reliability and ease of use.
+  specifications:
+    - name: Type
+      value: 35mm compact camera
+    - name: Lens
+      value: 35mm f/3.5
+    - name: Focus
+      value: Autofocus
+    - name: Flash
+      value: Built-in
+    - name: Year
+      value: 1994
+  manual_pdf: /assets/pdfs/Sure-Shot-w-Dial-Instr-Manual.pdf
+  images:
+    - src: /assets/images/Canon_Owl_1.jpg
+      alt: Canon Sure Shot Owl - Front View
+    - src: /assets/images/Canon_Owl_2.jpg
+      alt: Canon Sure Shot Owl - Back View
+    - src: /assets/images/Canon_Owl_3.jpg
+      alt: Canon Sure Shot Owl - Top View
+    - src: /assets/images/Canon_Owl_4.jpg
+      alt: Canon Sure Shot Owl - Controls
+    - src: /assets/images/Canon_Owl_5.jpg
+      alt: Canon Sure Shot Owl - In Use
+  usage_instructions:
+    - Load the film by opening the back cover
+    - Insert the film cartridge and pull the film leader to the orange mark
+    - Close the back cover, and the camera will automatically advance the film
+    - Turn on the camera by sliding the lens cover open
+    - Look through the viewfinder and frame your shot
+    - Press the shutter button halfway to focus
+    - Press the shutter button fully to take the picture
+  features:
+    - Auto-focus with focus lock
+    - Built-in flash with red-eye reduction
+    - Self-timer
+    - Date imprinting (on some models)
+    - Automatic film loading and rewinding
+
+- id: chinon-auto-gl-af
+  title: Chinon Auto GL AF
+  description: The Chinon Auto GL AF is a compact 35mm autofocus camera with a quality lens and versatile features.
+  specifications:
+    - name: Type
+      value: 35mm compact camera
+    - name: Lens
+      value: 38mm f/2.8
+    - name: Focus
+      value: Autofocus
+    - name: Exposure
+      value: Programmed automatic
+    - name: Year
+      value: 1988
+  manual_pdf: /assets/pdfs/chinon_auto_gl-ii.pdf
+  images:
+    - src: /assets/images/chinon-1.png
+      alt: Chinon Auto GL AF - Front View
+    - src: /assets/images/chinon-2.png
+      alt: Chinon Auto GL AF - Back View
+    - src: /assets/images/chinon-3.png
+      alt: Chinon Auto GL AF - Top View
+    - src: /assets/images/chinon-4.png
+      alt: Chinon Auto GL AF - Controls
+  usage_instructions:
+    - Load the film by opening the back cover
+    - Insert the film cartridge and pull the film leader to the mark
+    - Close the back cover, and the camera will automatically advance the film
+    - Turn on the camera
+    - Look through the viewfinder and frame your shot
+    - Press the shutter button halfway to focus
+    - Press the shutter button fully to take the picture
+  features:
+    - Auto-focus system
+    - Built-in flash
+    - Self-timer
+    - Automatic film loading and rewinding
+    - DX film speed setting
+
+- id: minolta-talker
+  title: Minolta Talker
+  description: <del>Garbo</del>Minolta Speaks! The Minolta Talker is a unique camera that provides voice feedback.
+  specifications:
+    - name: Type
+      value: 35mm compact camera with voice feedback
+    - name: Lens
+      value: 35mm f/2.8
+    - name: Focus
+      value: Autofocus
+    - name: Year
+      value: 1984
+  manual_pdf: /assets/pdfs/minolta-talker.pdf
+  external_link: https://drive.google.com/file/d/1tV8fShR3B0nsyNNX2KVzMDH8yqiRXkQ5/view?usp=sharing
+  external_link_text: Google Drive
+  usage_instructions:
+    - Load the film
+    - Turn on the camera
+    - Listen for voice prompts
+    - Frame your shot
+    - Press the shutter button
+  voice_commands:
+    - Too dark, use flash
+    - Load film
+    - Check distance
+    - Too close
