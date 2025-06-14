@@ -7,30 +7,31 @@ layout: default
   <div class="camera-details">
     <div class="camera-info">
       <h2>About</h2>
-      <p>{{ page.description }}</p>
+      {% assign camera = site.data.cameras | where: "id", page.camera_id | first %}
+      <p>{{ camera.description }}</p>
       
       <h2>Specifications</h2>
       <ul>
-        {% for spec in page.specifications %}
+        {% for spec in camera.specifications %}
         <li><strong>{{ spec.name }}:</strong> {{ spec.value }}</li>
         {% endfor %}
       </ul>
     </div>
     
     <div class="camera-resources">
-      {% if page.manual_pdf %}
+      {% if camera.manual_pdf %}
       <h2>Resources</h2>
-      <a href="{{ page.manual_pdf }}" class="download-button">Download PDF</a>
+      <a href="{{ camera.manual_pdf }}" class="download-button">Download PDF</a>
       {% endif %}
       
-      {% if page.external_link %}
-      <a href="{{ page.external_link }}" class="download-button">{{ page.external_link_text | default: "External Link" }}</a>
+      {% if camera.external_link %}
+      <a href="{{ camera.external_link }}" class="download-button">{{ camera.external_link_text | default: "External Link" }}</a>
       {% endif %}
       
-      {% if page.images %}
+      {% if camera.images %}
       <h2>Images</h2>
       <div class="camera-images">
-        {% for image in page.images %}
+        {% for image in camera.images %}
         <img src="{{ image.src }}" alt="{{ image.alt }}" width="300">
         {% endfor %}
       </div>
@@ -39,31 +40,31 @@ layout: default
   </div>
   
   <div class="camera-usage">
-    {% if page.usage_instructions %}
+    {% if camera.usage_instructions %}
     <h2>How to Use</h2>
     <p>Basic instructions for using the {{ page.title }}:</p>
     <ol>
-      {% for instruction in page.usage_instructions %}
+      {% for instruction in camera.usage_instructions %}
       <li>{{ instruction }}</li>
       {% endfor %}
     </ol>
     {% endif %}
     
-    {% if page.features %}
+    {% if camera.features %}
     <h2>Features</h2>
     <p>The {{ page.title }} includes several useful features:</p>
     <ul>
-      {% for feature in page.features %}
+      {% for feature in camera.features %}
       <li>{{ feature }}</li>
       {% endfor %}
     </ul>
     {% endif %}
     
-    {% if page.voice_commands %}
+    {% if camera.voice_commands %}
     <h2>Voice Commands</h2>
     <p>The {{ page.title }} provides voice feedback for various situations:</p>
     <ul>
-      {% for command in page.voice_commands %}
+      {% for command in camera.voice_commands %}
       <li>"{{ command }}"</li>
       {% endfor %}
     </ul>
