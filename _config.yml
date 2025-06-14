@@ -1,2 +1,26 @@
 title: Camera Manual Archive
 theme: jekyll-theme-cayman
+title: Cameras
+email: your-email@example.com
+description: >-
+  A collection of camera manuals and instructions for vintage cameras.
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  cameras:
+    output: true
+    permalink: /cameras/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "cameras"
+    values:
+      layout: "camera"
