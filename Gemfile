@@ -5,6 +5,7 @@ gem "webrick", "~> 1.7"
 gem "csv"
 gem "logger"
 gem "base64"
+gem "bigdecimal"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
