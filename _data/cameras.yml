@@ -166,3 +166,41 @@
   images:
     - src: /assets/images/nikon-one-touch.jpg
       alt: Nikon One Touch - Front View
+  manual_pdf: /assets/pdfs/Nikon-One-Touch.pdf
+
+- id: olympus-infinity-stylus
+  title: Olympus Infinity Stylus (Mju I)
+  description: Well-designed, fun-to-use point-and-shoot 35mm film camera.  It is light, compact, and ergonomic with brilliantly-simple controls
+  specifications:
+    - name: Lens
+      value: 35mm f/3.5
+    - name: Year
+      value: 1991
+  images:
+    - src: /assets/images/olympus-infinity-stylus-1.jpg
+      alt: Olympus Infinity Stylus - Closed
+    - src: /assets/images/olympus-infinity-stylus-2.jpg
+      alt: Olympus Infinity Stylus - Open
+  manual_pdf: /assets/pdfs/olympus-infinity-stylus.pdf
+  usage_instructions:
+    - Load film (done already)
+    - Slide open lens cover to expose the lens, it should click in place
+    - Look through the viewfinder and frame your shot
+    - Press the shutter gently to take the picture
+
+- id: olympus-trip-af-4000
+  title: Olympus Trip AF 4000 / XB40 AF
+  description: Little camera with a huge viewfinder
+  specifications:
+    - name: Lens
+      value: 27mm f/6.3
+    - name: Year
+      value: Late 90's
+  images:
+    - src: /assets/images/olympus-trip-af-4000-1.jpg
+      alt: Olympus Trip AF4000 Front View
+  usage_instructions:
+    - Load film (done already)
+    - Slide open lens cover to expose the lens, it should click in place
+    - Look through the viewfinder and frame your shot
+    - Press the shutter gently to take the picture
