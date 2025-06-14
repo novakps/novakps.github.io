@@ -36,15 +36,15 @@
       value: 1994
   manual_pdf: /assets/pdfs/Sure-Shot-w-Dial-Instr-Manual.pdf
   images:
-    - src: /assets/images/Canon_Owl_1.jpg
+    - src: /assets/images/Canon_Owl_1.png
       alt: Canon Sure Shot Owl - Front View
-    - src: /assets/images/Canon_Owl_2.jpg
+    - src: /assets/images/Canon_Owl_2.png
       alt: Canon Sure Shot Owl - Back View
-    - src: /assets/images/Canon_Owl_3.jpg
+    - src: /assets/images/Canon_Owl_3.png
       alt: Canon Sure Shot Owl - Top View
-    - src: /assets/images/Canon_Owl_4.jpg
+    - src: /assets/images/Canon_Owl_4.png
       alt: Canon Sure Shot Owl - Controls
-    - src: /assets/images/Canon_Owl_5.jpg
+    - src: /assets/images/Canon_Owl_5.png
       alt: Canon Sure Shot Owl - In Use
   usage_instructions:
     - Load the film by opening the back cover
