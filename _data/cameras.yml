@@ -166,7 +166,7 @@
   images:
     - src: /assets/images/nikon-one-touch.jpg
       alt: Nikon One Touch - Front View
-  manual_pdf: ""
+  manual_pdf: "/assets/pdfs/Nikon-One-Touch.pdf"
 
 - id: olympus-infinity-stylus
   title: Olympus Infinity Stylus (Mju I)
@@ -189,7 +189,7 @@
     - Press the shutter gently to take the picture
 
 - id: olympus-trip-af-4000
-  title: Olympus Trip AF 4000 / XB40 AF
+  title: Olympus Trip AF 4000  XB40 AF
   description: Little camera with a huge viewfinder
   specifications:
     - name: Lens
@@ -197,7 +197,7 @@
     - name: Year
       value: Late 90's
   images:
-    - src: /assets/images/olympus-trip-af-4000-1.jpg
+    - src: /assets/images/olympus-trip-af4000.png
       alt: Olympus Trip AF4000 Front View
   usage_instructions:
     - Load film (done already)
