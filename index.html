@@ -3,11 +3,20 @@ layout: default
 title: Home
 ---
 <div class="home">
-  <h1>Cameras</h1>
-  <p>Hints and tips on using the point and shoot cameras</p>
-
+  <h1>Vintage Camera Archive</h1>
+  <p>Your ultimate resource for classic point and shoot cameras</p>
+  
   <div class="featured">
-    <h2>Featured</h2>
-    <p>Check out our <a href="/cameras/"> collection</a> of cameras.</p>
+    <h2>Featured Cameras</h2>
+    <div class="featured-cameras">
+      {% assign featured_cameras = site.data.cameras | slice: 0, 3 %}
+      {% for camera in featured_cameras %}
+        <div class="featured-camera">
+          <h3><a href="/cameras/{{ camera.id }}/">{{ camera.title }}</a></h3>
+          <p>{{ camera.description | strip_html | truncatewords: 15 }}</p>
+        </div>
+      {% endfor %}
+    </div>
+    <p class="view-all">View our complete <a href="/cameras/">camera collection</a></p>
   </div>
 </div>
