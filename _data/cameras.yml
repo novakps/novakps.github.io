@@ -37,7 +37,7 @@
   manual_pdf: /assets/pdfs/Sure-Shot-w-Dial-Instr-Manual.pdf
   images:
     - src: /assets/images/Canon_Owl_1.png
-      alt: Canon Sure Shot Owl - Front View
+      alt: Kodak VR35 K40 - Front View
     - src: /assets/images/Canon_Owl_2.png
       alt: Canon Sure Shot Owl - Back View
     - src: /assets/images/Canon_Owl_3.png
@@ -128,7 +128,7 @@
     - Too close
 
 - id: kodak-vr35-k40
-  title: Koday VR35 K40
+  title: Kodak VR35 K40
   description: Camera for snapshots. It was offered by Kodak from 1986 to 1993
   specifications:
     - name: Lens
@@ -166,7 +166,7 @@
   images:
     - src: /assets/images/nikon-one-touch.jpg
       alt: Nikon One Touch - Front View
-  manual_pdf: /assets/pdfs/Nikon-One-Touch.pdf
+  manual_pdf: ""
 
 - id: olympus-infinity-stylus
   title: Olympus Infinity Stylus (Mju I)
