@@ -24,7 +24,9 @@ layout: default
       <h2></h2>
       <div class="camera-images">
           {% for image in camera.images %}
-          <img src="{{ image.src }}" alt="{{ image.alt }}" width="300">
+          <a href="{{ image.src }}" target="_blank">
+            <img src="{{ image.src }}" alt="{{ image.alt }}" width="300">
+          </a>
           {% endfor %}
       </div>
       {% endif %}
@@ -49,7 +51,9 @@ layout: default
         <h2>Advertisements</h2>
         <div class="camera-images">
             {% for ad in camera.ads %}
-            <img src="{{ ad.src }}" alt="{{ ad.alt | default: 'Advertisement' }}" width="300">
+            <a href="{{ ad.src }}" target="_blank">
+              <img src="{{ ad.src }}" alt="{{ ad.alt | default: 'Advertisement' }}" width="300">
+            </a>
             {% endfor %}
         </div>
         {% endif %}
