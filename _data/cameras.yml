@@ -20,8 +20,10 @@
     - Frame your shot
     - Press the shutter button
   ads:
+    - src: https://www.fetch-the-paper.com/cdn/shop/files/canon-sure-shot-af35m-camera-1980s-print-advertisement-ad-1982-fetch-the-paper-p662-30318192001102_1044x1401.jpg?v=1689483600
+      alt: Canon Ad - Quick as a Flash!
     - src: https://mikeeckman.com/wp-content/uploads/2016/04/CanonAd.jpg
-      alt: Canon Add
+      alt: Canon Ad - No more frustration
 
 - id: canon-sure-shot-owl
   title: Canon Sure Shot Owl
