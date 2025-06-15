@@ -7,9 +7,18 @@ permalink: /cameras/
   <h1>Cameras</h1>
   <div class="manuals-list">
     {% for camera in site.data.cameras %}
-      <div class="manual-item" {% if camera.ads and camera.ads[0].src %}style="background-image: url('{{ camera.ads[0].src }}');"{% endif %}>
-        <h3><a href="/cameras/{{ camera.id }}/">{{ camera.title }}</a></h3>
-        <p>{{ camera.description | strip_html | truncatewords: 10 }}</p>
+      <div class="manual-item">
+        <div class="manual-content">
+          <h3><a href="/cameras/{{ camera.id }}/">{{ camera.title }}</a></h3>
+          <p>{{ camera.description | strip_html | truncatewords: 10 }}</p>
+        </div>
+        {% if camera.ads and camera.ads[0].src %}
+        <div class="manual-thumbnail">
+          <a href="{{ camera.ads[0].src }}" target="_blank">
+            <img src="{{ camera.ads[0].src }}" alt="{{ camera.ads[0].alt | default: 'Advertisement' }}">
+          </a>
+        </div>
+        {% endif %}
       </div>
     {% endfor %}
   </div>
