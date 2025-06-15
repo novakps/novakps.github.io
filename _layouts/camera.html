@@ -29,35 +29,30 @@ layout: default
       </div>
       {% endif %}
 
-      {% if camera.ads %}
-      <h2>Advertisements</h2>
-      <div class="camera-images">
-          {% for ad in camera.ads %}
-          <img src="{{ ad.src }}" alt="{{ ad.alt | default: 'Advertisement' }}" width="300">
-          {% endfor %}
-      </div>
-      {% endif %}
-
     </div>
 
     <div class="camera-resources">
 
         <h2>Specifications</h2>
-      <ul>
-          {% for spec in camera.specifications %}
-          <li><strong>{{ spec.name }}:</strong> {{ spec.value }}</li>
-          {% endfor %}
-      </ul>
+        <ul>
+            {% for spec in camera.specifications %}
+            <li><strong>{{ spec.name }}:</strong> {{ spec.value }}</li>
+            {% endfor %}
+        </ul>
 
-      {% if camera.manual_pdf %}
-      <h2>Manual for Nerds</h2>
-      <a href="{{ camera.manual_pdf }}" class="download-button">Download PDF</a>
-      {% endif %}
+        {% if camera.manual_pdf %}
+        <h2>Manual for Nerds</h2>
+        <a href="{{ camera.manual_pdf }}" class="download-button">PDF</a>
+        {% endif %}
 
-      {% if camera.external_link %}
-      <a href="{{ camera.external_link }}" class="download-button">{{ camera.external_link_text | default: "External Link" }}</a>
-      {% endif %}
-
+        {% if camera.ads %}
+        <h2>Advertisements</h2>
+        <div class="camera-images">
+            {% for ad in camera.ads %}
+            <img src="{{ ad.src }}" alt="{{ ad.alt | default: 'Advertisement' }}" width="300">
+            {% endfor %}
+        </div>
+        {% endif %}
     </div>
   </div>
 
