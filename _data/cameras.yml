@@ -15,7 +15,7 @@
     - src: /assets/images/CANON_AF35_ML_Shooting.png
       alt: Canon AF35 ML
   usage_instructions:
-    - Load the film
+    - Load the film (Already done)
     - Turn on the camera
     - Frame your shot
     - Press the shutter button
@@ -47,9 +47,7 @@
     - src: /assets/images/Canon_Owl_5.png
       alt: Canon Sure Shot Owl - In Use
   usage_instructions:
-    - Load the film by opening the back cover
-    - Insert the film cartridge and pull the film leader to the orange mark
-    - Close the back cover, and the camera will automatically advance the film
+    - Load the film (this is done already)
     - Turn on the camera by sliding the lens cover open
     - Look through the viewfinder and frame your shot
     - Press the shutter button halfway to focus
@@ -144,7 +142,7 @@
     - Slide up flash button to activate pop-up flash indoors
     - Press the shutter button to take the picture
   images:
-    - src: /assets/images/Kodak_VR35_K40.jpg
+    - src: /assets/images/Kodak_VR35_K40.png
       alt: Canon Sure Shot Owl - Front View
 
 - id: nikon-one-touch
@@ -164,7 +162,7 @@
     - Press the shutter button lightly to focus
     - Press the shutter button fully to take the picture
   images:
-    - src: /assets/images/nikon-one-touch.jpg
+    - src: /assets/images/nikon-one-touch.png
       alt: Nikon One Touch - Front View
   manual_pdf: "/assets/pdfs/Nikon-One-Touch.pdf"
 
@@ -177,9 +175,9 @@
     - name: Year
       value: 1991
   images:
-    - src: /assets/images/olympus-infinity-stylus-1.jpg
+    - src: /assets/images/olympus-infinity-stylus-1.png
       alt: Olympus Infinity Stylus - Closed
-    - src: /assets/images/olympus-infinity-stylus-2.jpg
+    - src: /assets/images/olympus-infinity-stylus-2.png
       alt: Olympus Infinity Stylus - Open
   manual_pdf: /assets/pdfs/olympus-infinity-stylus.pdf
   usage_instructions:
@@ -189,7 +187,7 @@
     - Press the shutter gently to take the picture
 
 - id: olympus-trip-af-4000
-  title: Olympus Trip AF 4000  XB40 AF
+  title: Olympus Trip AF 4000 / XB40 AF
   description: Little camera with a huge viewfinder
   specifications:
     - name: Lens
@@ -204,3 +202,101 @@
     - Slide open lens cover to expose the lens, it should click in place
     - Look through the viewfinder and frame your shot
     - Press the shutter gently to take the picture
+
+- id: pentax-iqzoom-ezy
+  title: Pentax IQZoomEZY
+  description: Compact camera that features a 38-70mm zoom lens and offers automatic focus, exposure, film loading, and rewinding
+  images:
+    - src: /assets/images/pentax-iqzoomezy-1.png
+      alt: Pentax IQZoomEZY - On/Off
+    - src: /assets/images/pentax-iqzoomezy-2.png
+      alt: Pentax IQZoomEZY - Shutter
+  manual_pdf: /assets/pdfs/pentax-iqzoom-ezy.pdf
+  usage_instructions:
+    - Load film (done already)
+    - Press the on/off button to turn on the camera
+    - Look through the viewfinder and frame your shot
+    - Press the shutter gently to take the picture
+
+- id: pentax-iqzoom-928
+  title: Pentax IQZoom928 / Espio
+  description: Point and shoot with Zoom Lens
+  manual_pdf: /assets/pdfs/pentax-iqzoom-928.pdf
+  usage_instructions:
+    - Load film (done already)
+    - Press the on/off button to turn on the camera
+    - Look through the viewfinder and frame your shot
+    - Press the shutter gently to take the picture
+  images:
+    - src: /assets/images/pentax-iqzoom-928-1.png
+      alt: Pentax IQZoom928 - On/Off
+    - src: /assets/images/pentax-iqzoom-928-2.png
+      alt: Pentax IQZoom928 - Shutter button
+  specifications:
+    - name: Type
+      value: 35mm compact camera
+    - name: Lens
+      value: 28 - 90mm f/1.9
+    - name: Focus
+      value: Autofocus
+    - name: Year
+      value: 1994
+
+- id: pentax-pc-313
+  title: Pentax-PC313
+  description: lightweight and simple autofocus 35mm film camera
+  manual_pdf: /assets/pdfs/pentax-pc-313.pdf
+  images:
+    - src: /assets/images/pentax-pc-313.png
+      alt: Pentax PC-313 - Front View
+  usage_instructions:
+    - Load film (done already)
+    - Slide open lens cover to expose the lens, it should click in place
+    - Look through the viewfinder and frame your shot
+    - Press the shutter gently to take the picture
+  specifications:
+    - name: Type
+      value: 35mm compact camera
+    - name: Lens
+      value: 35mm f/4.5
+    - name: Focus
+      value: Autofocus
+    - name: Year
+      value: 1991
+
+- id: ricoh-af-5
+  title: Ricoh AF-5
+  description: A camera with nimble operation thanks to its electronic release and lightweight body
+  specifications:
+    - name: Lens
+      value: 38mm/f2.8 Color Rikenon
+    - name: Year
+      value: 1984
+    - name: Focus
+      value: Full extension Autofocus
+  manual_pdf: /assets/pdfs/ricoh-af-5.pdf
+  images:
+    - src: /assets/images/ricoh-af-5-1.png
+      alt: Ricoh AF-5 - Front View
+  usage_instructions:
+    - Load film (done already)
+    - Remove lens cover to expose the lens, this also turns on the camera
+    - Look through the viewfinder and frame your shot
+    - Press the shutter gently to take the picture
+
+- id: yashica-impression
+  title: Yashica, Kyocera Impression
+  description: fully automatic camera
+  specifications:
+    - name: Lens
+      value: 28mm f4.5 lens
+    - name: Year
+      value: 1999
+  usage_instructions:
+    - Load film (done already)
+    - Slide open lens cover below the lens, this also turns on the camera
+    - Look through the viewfinder and frame your shot
+    - Press the shutter gently to take the picture
+  images:
+    - src: /assets/images/yashica-impression-1.png
+      alt: Yashica Impression - Front View
