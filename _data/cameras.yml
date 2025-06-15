@@ -15,7 +15,7 @@
     - src: /assets/images/CANON_AF35_ML_Shooting.png
       alt: Canon AF35 ML
   usage_instructions:
-    - Load the film (Already done)
+    - <del>Load the film</del> (Already done)
     - Turn on the camera
     - Frame your shot
     - Press the shutter button
@@ -52,7 +52,7 @@
     - src: /assets/images/Canon_Owl_5.png
       alt: Canon Sure Shot Owl - In Use
   usage_instructions:
-    - Load the film (this is done already)
+    - <del>Load the film</del> (this is done already)
     - Turn on the camera by sliding the lens cover open
     - Look through the viewfinder and frame your shot
     - Press the shutter button halfway to focus
@@ -89,9 +89,7 @@
     - src: /assets/images/chinon-4.png
       alt: Chinon Auto GL AF - Controls
   usage_instructions:
-    - Load the film by opening the back cover
-    - Insert the film cartridge and pull the film leader to the mark
-    - Close the back cover, and the camera will automatically advance the film
+    - <del>Load the film</del> this is already done.
     - Turn on the camera
     - Look through the viewfinder and frame your shot
     - Press the shutter button halfway to focus
@@ -122,7 +120,7 @@
   external_link: https://drive.google.com/file/d/1tV8fShR3B0nsyNNX2KVzMDH8yqiRXkQ5/view?usp=sharing
   external_link_text: Google Drive
   usage_instructions:
-    - Load the film
+    - <del>Load the film</del> (already done)
     - Turn on the camera
     - Listen for voice prompts
     - Frame your shot
@@ -147,7 +145,7 @@
     - name: Year
       value: 1986
   usage_instructions:
-    - Load film (done already)
+    - <del>Load film</del> (done already)
     - Slide open lens cover (turns on camera too)
     - Look through the viewfinder and frame your shot
     - Slide up flash button to activate pop-up flash indoors
@@ -169,7 +167,7 @@
     - name: Year
       value: 1985
   usage_instructions:
-    - Load film (already done)
+    - <del>Load film</del> (already done)
     - Open lens cover at bottom of lens (also turns on camera)
     - Look through the viewfinder and frame your shot
     - Press the shutter button lightly to focus
@@ -196,7 +194,7 @@
       alt: Olympus Infinity Stylus - Open
   manual_pdf: /assets/pdfs/olympus-infinity-stylus.pdf
   usage_instructions:
-    - Load film (done already)
+    - <del>Load film</del> (done already)
     - Slide open lens cover to expose the lens, it should click in place
     - Look through the viewfinder and frame your shot
     - Press the shutter gently to take the picture
@@ -213,7 +211,7 @@
     - src: /assets/images/olympus-trip-af4000.png
       alt: Olympus Trip AF4000 Front View
   usage_instructions:
-    - Load film (done already)
+    - <del>Load film</del> (done already)
     - Slide open lens cover to expose the lens, it should click in place
     - Look through the viewfinder and frame your shot
     - Press the shutter gently to take the picture
@@ -228,7 +226,7 @@
       alt: Pentax IQZoomEZY - Shutter
   manual_pdf: /assets/pdfs/pentax-iqzoom-ezy.pdf
   usage_instructions:
-    - Load film (done already)
+    - <del>Load film</del> (done already)
     - Press the on/off button to turn on the camera
     - Look through the viewfinder and frame your shot
     - Press the shutter gently to take the picture
