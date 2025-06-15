@@ -105,7 +105,10 @@
 
 - id: minolta-talker
   title: Minolta AF-Sv / Minolta Talker
-  description: <del>Garbo</del>Minolta Speaks! The Minolta Talker is a unique camera that provides voice feedback.
+  description: Minolta Speaks! The Minolta Talker is a unique camera that provides voice feedback.
+  ads:
+    - src: https://www.tias.com/stores/adsbydee/origpics/19748a.jpg
+      alt: Now you don't have to be a wizard to get perfect pictures.
   specifications:
     - name: Type
       value: 35mm compact camera with voice feedback
@@ -133,6 +136,9 @@
 - id: kodak-vr35-k40
   title: Kodak VR35 K40
   description: Camera for snapshots. It was offered by Kodak from 1986 to 1993
+  ads:
+    - src: https://i.ebayimg.com/images/g/-F4AAOSw2IhljxYq/s-l1600.webp
+      alt: Kodak VR35
   specifications:
     - name: Lens
       value: 35mm Kodak Ektanar
@@ -153,6 +159,8 @@
 - id: nikon-one-touch
   title: Nikon One Touch LF35AF2
   description: It's easy to learn, easy to use, and extremely portable.
+  ads:
+    - src: https://i.ebayimg.com/images/g/7oYAAOSwpZpcXJa6/s-l1600.webp
   specifications:
     - name: Lens
       value: 35mm Nikon Lens
@@ -174,6 +182,8 @@
 - id: olympus-infinity-stylus
   title: Olympus Infinity Stylus (Mju I)
   description: Well-designed, fun-to-use point-and-shoot 35mm film camera.  It is light, compact, and ergonomic with brilliantly-simple controls
+  ads:
+    - src: https://i.ebayimg.com/images/g/JP8AAOSwYSdka5~Y/s-l1600.webp
   specifications:
     - name: Lens
       value: 35mm f/3.5
@@ -272,6 +282,8 @@
 - id: ricoh-af-5
   title: Ricoh AF-5
   description: A camera with nimble operation thanks to its electronic release and lightweight body
+  ads:
+    - src: https://ia801807.us.archive.org/4/items/1982-advertisement-for-ricoh-af-2-camera/1982%20advertisement%20for%20Ricoh%20AF-2%20camera.jpg
   specifications:
     - name: Lens
       value: 38mm/f2.8 Color Rikenon
