@@ -1,32 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-  <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
-</head>
-<body>
-  <header class="site-header">
-    <div class="wrapper">
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/cameras/' | relative_url }}">Cameras</a>
-      </nav>
-    </div>
-  </header>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
+    {% include head-custom.html %}
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-  <main class="content">
-    {{ content }}
-  </main>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ site.title }}</h1>
+      <h2 class="project-tagline">{{ site.description }}</h2>
+      <a href="{{ '/' | relative_url }}" class="btn">Home</a>
+      <a href="{{ '/cameras/' | relative_url }}" class="btn">Cameras</a>
+    </header>
 
-  <footer class="site-footer">
-    <div class="wrapper">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
-    </div>
-  </footer>
-</body>
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+      </footer>
+    </main>
+  </body>
 </html>
