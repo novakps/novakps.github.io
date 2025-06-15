@@ -25,8 +25,8 @@
     - src: https://mikeeckman.com/wp-content/uploads/2016/04/CanonAd.jpg
       alt: Canon Ad - No more frustration
 
-- id: canon-sure-shot-owl
-  title: Canon Sure Shot Owl
+- id: canon-sure-shot-owl-dial
+  title: Canon Sure Shot Owl (with dial)
   description: The Canon Sure Shot Owl is a compact 35mm point and shoot camera known for its reliability and ease of use.
   specifications:
     - name: Type
@@ -41,19 +41,50 @@
       value: 1994
   manual_pdf: /assets/pdfs/Sure-Shot-w-Dial-Instr-Manual.pdf
   images:
-    - src: /assets/images/Canon_Owl_1.png
-      alt: Kodak VR35 K40 - Front View
-    - src: /assets/images/Canon_Owl_2.png
+    - src: /assets/images/Canon_Owl_dial_1.png
+      alt: Canon Sure Shot Owl - Front View
+    - src: /assets/images/Canon_Owl_dial_2.png
       alt: Canon Sure Shot Owl - Back View
-    - src: /assets/images/Canon_Owl_3.png
+    - src: /assets/images/Canon_Owl_dial_3.png
       alt: Canon Sure Shot Owl - Top View
-    - src: /assets/images/Canon_Owl_4.png
+    - src: /assets/images/Canon_Owl_dial_4.png
       alt: Canon Sure Shot Owl - Controls
-    - src: /assets/images/Canon_Owl_5.png
+    - src: /assets/images/Canon_Owl_dial_5.png
       alt: Canon Sure Shot Owl - In Use
   usage_instructions:
     - <del>Load the film</del> (this is done already)
-    - Turn on the camera by sliding the lens cover open
+    - Turn on the camera by turning the dial to 'Auto'
+    - Look through the viewfinder and frame your shot
+    - Press the shutter button halfway to focus
+    - Press the shutter button fully to take the picture
+  features:
+    - Auto-focus with focus lock
+    - Built-in flash with red-eye reduction
+    - Self-timer
+    - Date imprinting (on some models)
+    - Automatic film loading and rewinding
+
+- id: canon-sure-shot-owl
+  title: Canon Sure Shot Owl
+  description: The Canon Sure Shot Owl is a compact 35mm point and shoot camera known for its reliability and ease of use.
+  specifications:
+    - name: Type
+      value: 35mm compact camera
+    - name: Lens
+      value: 35mm f/3.5
+    - name: Focus
+      value: Autofocus
+    - name: Flash
+      value: Built-in
+    - name: Year
+      value: 1994
+  manual_pdf: /assets/pdfs/canon-sure-shot-owl-manual.pdf
+  images:
+    - src: /assets/images/canon-sure-shot-1
+      alt: Canon Sure Shot Owl - Front View
+  usage_instructions:
+    - <del>Load the film</del> (this is done already)
+    - Turn on the camera by sliding the switch below the lens on the front of the camera, which turns on the camera.
     - Look through the viewfinder and frame your shot
     - Press the shutter button halfway to focus
     - Press the shutter button fully to take the picture
