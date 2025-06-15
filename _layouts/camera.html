@@ -29,6 +29,14 @@ layout: default
       </div>
       {% endif %}
 
+      {% if camera.ads %}
+      <h2>Advertisements</h2>
+      <div class="camera-images">
+          {% for ad in camera.ads %}
+          <img src="{{ ad.src }}" alt="{{ ad.alt | default: 'Advertisement' }}" width="300">
+          {% endfor %}
+      </div>
+      {% endif %}
 
     </div>
 
