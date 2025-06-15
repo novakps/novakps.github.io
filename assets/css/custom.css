@@ -221,7 +221,7 @@ a:hover {
 }
 
 .camera-images img:hover {
-  transform: scale(1.03);
+  transform: scale(2.0);
 }
 
 .download-button {
@@ -266,19 +266,19 @@ a:hover {
   .camera-details {
     grid-template-columns: 1fr;
   }
-  
+
   .site-nav {
     float: none;
     display: block;
     margin-top: 15px;
     text-align: center;
   }
-  
+
   .site-nav a {
     margin-left: 0;
     margin-right: 15px;
   }
-  
+
   .site-title {
     display: block;
     text-align: center;
