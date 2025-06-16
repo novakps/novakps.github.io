@@ -41,8 +41,10 @@
       value: 1994
   manual_pdf: /assets/pdfs/Sure-Shot-w-Dial-Instr-Manual.pdf
   images:
-    - src: /assets/images/Canon_Owl_dial_1.png
+    - src: /assets/images/canon-sure-shot-owl-dial.png
       alt: Canon Sure Shot Owl - Front View
+    - src: /assets/images/Canon_Owl_dial_1.png
+      alt: Canon Sure Shot Owl - Dial
     - src: /assets/images/Canon_Owl_dial_2.png
       alt: Canon Sure Shot Owl - Back View
     - src: /assets/images/Canon_Owl_dial_3.png
@@ -64,7 +66,7 @@
     - Date imprinting (on some models)
     - Automatic film loading and rewinding
 
-- id: canon-sure-shot-owl
+- id: canon-sure-shot-owl-no-dial
   title: Canon Sure Shot Owl
   description: The Canon Sure Shot Owl is a compact 35mm point and shoot camera known for its reliability and ease of use.
   specifications:
@@ -80,7 +82,7 @@
       value: 1994
   manual_pdf: /assets/pdfs/canon-sure-shot-owl-manual.pdf
   images:
-    - src: /assets/images/canon-sure-shot-1
+    - src: /assets/images/canon-sure-shot-1.png
       alt: Canon Sure Shot Owl - Front View
   usage_instructions:
     - <del>Load the film</del> (this is done already)
@@ -132,6 +134,45 @@
     - Automatic film loading and rewinding
     - DX film speed setting
 
+- id: fuji-discovery
+  title: Fuji Discovery 1000 Zoom Date
+  description: Fuji's top zoom point-and-shoot in the early 1990s
+  specifications:
+    - name: Lens
+      value: Fujinon Zoom Lens, power zoom, 35 - 80mm, 1:3.8 ~ 8.2, 8 componentes, 8 elements
+    - name: Year
+      value: 1992
+  manual_pdf: /assets/pdfs/fuji-discovery-1000-zoom.pdf
+  usage_instructions:
+    - <del>Load the film</del> this is already done.
+    - Turn on the camera
+    - Look through the viewfinder and frame your shot
+    - Press the shutter button halfway to focus
+    - Press the shutter button fully to take the picture.  <em>Note that the button on this camera is a little stiff and may need to be pressed harder than you would expect.</em>
+
+- id: kodak-vr35-k40
+  title: Kodak VR35 K40
+  description: Camera for snapshots. It was offered by Kodak from 1986 to 1993
+  ads:
+    - src: https://i.ebayimg.com/images/g/-F4AAOSw2IhljxYq/s-l1600.webp
+      alt: Kodak VR35
+  specifications:
+    - name: Lens
+      value: 35mm Kodak Ektanar
+    - name: Focus
+      value: Fixed Focus
+    - name: Year
+      value: 1986
+  usage_instructions:
+    - <del>Load film</del> (done already)
+    - Slide open lens cover (turns on camera too)
+    - Look through the viewfinder and frame your shot
+    - Slide up flash button to activate pop-up flash indoors
+    - Press the shutter button to take the picture
+  images:
+    - src: /assets/images/Kodak_VR35_K40.png
+      alt: Kodak CR35 K40 - Front View
+
 - id: minolta-talker
   title: Minolta AF-Sv / Minolta Talker
   description: Minolta Speaks! The Minolta Talker is a unique camera that provides voice feedback.
@@ -161,29 +202,6 @@
     - Load film
     - Check distance
     - Too close
-
-- id: kodak-vr35-k40
-  title: Kodak VR35 K40
-  description: Camera for snapshots. It was offered by Kodak from 1986 to 1993
-  ads:
-    - src: https://i.ebayimg.com/images/g/-F4AAOSw2IhljxYq/s-l1600.webp
-      alt: Kodak VR35
-  specifications:
-    - name: Lens
-      value: 35mm Kodak Ektanar
-    - name: Focus
-      value: Fixed Focus
-    - name: Year
-      value: 1986
-  usage_instructions:
-    - <del>Load film</del> (done already)
-    - Slide open lens cover (turns on camera too)
-    - Look through the viewfinder and frame your shot
-    - Slide up flash button to activate pop-up flash indoors
-    - Press the shutter button to take the picture
-  images:
-    - src: /assets/images/Kodak_VR35_K40.png
-      alt: Canon Sure Shot Owl - Front View
 
 - id: nikon-one-touch
   title: Nikon One Touch LF35AF2
